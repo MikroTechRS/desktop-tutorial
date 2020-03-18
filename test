@@ -1,6 +1,7 @@
 text
 
 111111
+222222
 
 //-----------------SSH keys------------
 ssh-keygen -t rsa -b 4096 -C "mikrotechrs@gmail.com"
