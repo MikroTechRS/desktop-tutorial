@@ -1,1 +1,16 @@
 text
+
+//-копировать с Git  на  комп --
+git clone git@github.com:MikroTechRS/desktop-tutorial.git
+
+
+git status  //
+git add .   // добавляет все изменьонные файлы в coommit
+git commit -m "text"  // делает commit
+git push       // сохраняет commit на GitHub (сервере)
+
+
+
+git checkout -b stm32f4xx   //создает новую ветку: stm32f4xx  
+git branch                  //проверяет в какой ветки находимся
+git checkout master  
