@@ -1,1 +1,27 @@
 text
+
+111111
+222222
+
+//-----------------SSH keys------------
+ssh-keygen -t rsa -b 4096 -C "mikrotechrs@gmail.com"
+eval "(ssh-agent -s)"
+ssh-add -k ~/.ssh/id_rsa.pub  
+
+
+
+//-копировать с Git  на  комп --
+git clone git@github.com:MikroTechRS/desktop-tutorial.git
+
+
+git status  //
+git add .   // добавл€ет все изменьонные файлы в coommit
+git commit -m "text"  // делает commit
+git push       // сохран€ет новый commit на GitHub (сервере)
+
+
+git push --set-upstream origin stm32f4xx  // сохран€ет commit на GitHub (сервере)
+
+git checkout -b stm32f4xx   //создает новую ветку: stm32f4xx  
+git branch                  //провер€ет в какой ветки находимс€
+git checkout master        // переключаетс€ на ветку master   
